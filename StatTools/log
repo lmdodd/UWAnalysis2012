@@ -1,0 +1,140 @@
+Reading cached build data
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Entering Package UWAnalysis/StatTools
+>> Creating project symlinks
+>> Compiling  /afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc 
+In file included from /afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:2:0:
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runOSLSMT(std::string, std::string, std::string, float)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1379:27: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1373:25: warning: variable 'ztt_ll' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1423:28: warning: variable 'wShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1442:28: warning: variable 'dataQCDControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1443:28: warning: variable 'zllQCDControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1444:28: warning: variable 'ttQCDControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1504:28: warning: variable 'wShapeSS' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runMinimalExtrapolation(std::string, std::string, std::string, float, float, float, float, BkgOutput, std::string)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1658:31: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1712:30: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1713:30: warning: variable 'zlShifDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1716:27: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1717:30: warning: variable 'zlShifDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1752:26: warning: variable 'dataQCDControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1818:26: warning: variable 'dataQCDControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1819:26: warning: variable 'zllQCDControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1655:28: warning: variable 'ztt_ll' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1682:28: warning: variable 'topShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runABCD(std::string, std::string, std::string, float, float, float, float, std::string)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:1992:30: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2001:25: warning: variable 'zttHisto' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2062:28: warning: variable 'dataFAKEControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2063:28: warning: variable 'ttFAKEControl' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runFullExtrapolationBTag(std::string, std::string, std::string, BkgOutput, float, float, float, float, float, float, std::string, std::string, std::string)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2192:30: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2199:25: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2222:40: warning: variable 'topFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2250:30: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2251:30: warning: variable 'zlShiftDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2258:30: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2259:30: warning: variable 'zlShiftDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2277:30: warning: variable 'wShapeUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2278:30: warning: variable 'wShapeDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2280:41: warning: variable 'wShapeFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2281:41: warning: variable 'wShapeFineBinsUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2282:41: warning: variable 'wShapeFineBinsDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2344:41: warning: variable 'dataYFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2388:30: warning: variable 'dataQCDShapeFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2389:30: warning: variable 'wShapeSSFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2390:30: warning: variable 'zllQCDFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2391:30: warning: variable 'topYieldQCDFineBins' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2186:28: warning: variable 'ztt_ll' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2189:11: warning: unused variable 'corrZee' [-Wunused-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2239:28: warning: variable 'zlShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2240:28: warning: variable 'zjShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2274:28: warning: variable 'wShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2354:11: warning: unused variable 'qcdPass' [-Wunused-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2355:11: warning: unused variable 'qcdAll' [-Wunused-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2357:11: warning: unused variable 'qcdFactor' [-Wunused-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2358:11: warning: unused variable 'qcdFactorErr' [-Wunused-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:2366:28: warning: variable 'dataQCDShape1' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runBoost(std::string, std::string, std::string, BkgOutput, float, float, float, float, float, float, std::string, std::string)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3115:32: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3122:26: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3168:26: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3169:26: warning: variable 'zlShiftDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3172:26: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3173:26: warning: variable 'zlShiftDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3109:28: warning: variable 'ztt_ll' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3140:28: warning: variable 'topShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3148:28: warning: variable 'vvShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3155:25: warning: variable 'zlShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3156:25: warning: variable 'zjShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3219:28: warning: variable 'dataSSYield' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3224:25: warning: variable 'dataQCDShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runVBFLoose(std::string, std::string, std::string, BkgOutput, float, float, float, float, float, float, std::string, std::string)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3363:32: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3422:26: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3423:26: warning: variable 'zlShifDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3430:26: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3431:26: warning: variable 'zlShifDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3358:28: warning: variable 'ztt_ll' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3391:28: warning: variable 'topShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3400:25: warning: variable 'vvShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3408:25: warning: variable 'zlShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3409:25: warning: variable 'zjShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3444:27: warning: variable 'wShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3477:28: warning: variable 'dataSSYield' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3482:25: warning: variable 'dataQCDShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'BkgOutput DataCardCreator::runVBFTight(std::string, std::string, std::string, BkgOutput, float, float, float, float, float, float, std::string, std::string)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3623:32: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3630:26: warning: variable 'zttShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3680:26: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3681:26: warning: variable 'zlShifDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3688:26: warning: variable 'zlShiftUp' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3689:26: warning: variable 'zlShifDown' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3618:28: warning: variable 'ztt_ll' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3649:28: warning: variable 'topShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3658:25: warning: variable 'vvShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3666:25: warning: variable 'zlShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3667:25: warning: variable 'zjShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3703:27: warning: variable 'wShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3736:28: warning: variable 'dataSSYield' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:3741:25: warning: variable 'dataQCDShape' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h: In member function 'void DataCardCreator::qcdSyst(std::string, std::string, std::string, float, float)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/interface/DataCardCreator.h:4133:2: warning: label 'std' defined but not used [-Wunused-label]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc: In function 'int main(int, char**)':
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:128:18: warning: variable 'outputMSSM1L' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:146:18: warning: variable 'outputMSSM2' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:167:18: warning: variable 'outputSM0L' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:178:18: warning: variable 'outputSM0M' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:189:18: warning: variable 'outputSM0H' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:203:18: warning: variable 'outputSM1L' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:215:18: warning: variable 'outputSM1H' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:228:18: warning: variable 'outputBOOST' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:255:16: warning: variable 'outputSM2' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:279:16: warning: variable 'outputSM3L' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:301:16: warning: variable 'outputSM2' set but not used [-Wunused-but-set-variable]
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/src/UWAnalysis/StatTools/bin/MakeDataCard.cc:325:18: warning: variable 'outputZTT' set but not used [-Wunused-but-set-variable]
+>> Building binary MakeDataCard
+Copying tmp/slc5_amd64_gcc462/src/UWAnalysis/StatTools/bin/MakeDataCard/MakeDataCard to productstore area:
+>> Leaving Package UWAnalysis/StatTools
+>> Package UWAnalysis/StatTools built
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+gmake[1]: Entering directory `/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7'
+>> Creating project symlinks
+>> Pluging of all type refreshed.
+>> Done python_symlink
+>> Compiling python modules cfipython/slc5_amd64_gcc462
+>> Compiling python modules python
+>> Compiling python modules src/JetMETCorrections/METPUSubtraction/python
+>> Compiling python modules src/RecoJets/JetProducers/python
+>> Compiling python modules src/RecoTauTag/RecoTau/python
+>> Compiling python modules src/UWAnalysis/Configuration/python
+>> Compiling python modules src/UWAnalysis/MCTools/python
+>> Compiling python modules src/UWAnalysis/RecoTools/python
+>> Compiling python modules src/HiggsAnalysis/CombinedLimit/python
+>> Compiling python modules src/PhysicsTools/PatAlgos/python
+>> Compiling python modules src/RecoLuminosity/LumiDB/python
+>> All python modules compiled
+gmake[1]: Leaving directory `/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7'

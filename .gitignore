@@ -1,0 +1,18 @@
+# Compiled Source Code #
+########################
+*.o
+*.so
+
+# Files #
+#########
+*.root
+*.tar
+*.zip
+*.xml
+
+# Logs #
+########
+*.txt
+*.out
+*.log
+*~

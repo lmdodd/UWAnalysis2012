@@ -1,0 +1,23 @@
+Reading cached build data
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Nothing to be done for src/UWAnalysis/StatTools/data/higgsTauTau
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+gmake[1]: Entering directory `/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7'
+>> Creating project symlinks
+>> Pluging of all type refreshed.
+>> Done python_symlink
+>> Compiling python modules cfipython/slc5_amd64_gcc462
+>> Compiling python modules python
+>> Compiling python modules src/JetMETCorrections/METPUSubtraction/python
+>> Compiling python modules src/RecoJets/JetProducers/python
+>> Compiling python modules src/RecoTauTag/RecoTau/python
+>> Compiling python modules src/UWAnalysis/Configuration/python
+>> Compiling python modules src/UWAnalysis/MCTools/python
+>> Compiling python modules src/UWAnalysis/RecoTools/python
+>> Compiling python modules src/HiggsAnalysis/CombinedLimit/python
+>> Compiling python modules src/PhysicsTools/PatAlgos/python
+>> Compiling python modules src/RecoLuminosity/LumiDB/python
+>> All python modules compiled
+gmake[1]: Leaving directory `/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7'

@@ -1,0 +1,2511 @@
+mkdir: cannot create directory `muTauPlots': File exists
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 1481.265503 zttShapePre: 1481.265503 -------
+Efficiency for embedding =1.000000
+OS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884 = 825.000000 +- 74.572884 
+W Yield = 825.000000 * 0.274209 = 226.222839
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+SS QCD in  core  = (data) 375.000000 - (wSS)102.828560 -(zllSS)21.216675 -(topSS) 67.441788 - (zYieldSS) 45.941441 - (vvYieldSS) 6.045919= 132.000000 +- 25.057617 
+TTbar events in signal region = 268.427490 + 40.079987 
+TTbar events in SS region = 67.441788 + 19.154770 
+Diboson events in signal region = 88.009056 + 39.967243 
+Z ->ll in signal region = 48.128025 + 16.600918 
+Z ->ll in SS region = 21.216675 + 7.278469 
+W in signal region = 226.222839 + 40.522163 
+W in SS region = 102.828560 + 19.381512 
+BACKGROUND=1259.639404 +-76.390610 
+LATEX ------------------------------------
+Total & 1287.00  \\ 
+Di-Boson & 88.01 $\pm$ 40.43  \\ 
+$t\bar{t}$ & 268.43 $\pm$ 50.93 \\ 
+$Zll & 48.13 $\pm$ 16.69  \\ 
+$W+jets$ & 226.22 $\pm$ 42.07   \\ 
+QCD & 139.92 $\pm$ 26.69 \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 34.28 & - & - & - \\ 
+Total Background & 1259.64 $\pm$ 86.28 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 1365.744751 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.922012
+OS W in sideband  =1709.000000 -810.660706 -80.779671 -61.345154 = 756.000000 +- 73.848373 
+W Yield = 756.000000 * 0.274209 = 207.302383
+Yield =1203.000000 Lo=1168.509033 Hi=1238.497925
+Yield =352.000000 Lo=333.347504 Hi=371.671661
+SS QCD in  core  = (data) 352.000000 - (wSS)94.228355 -(zllSS)21.216675 -(topSS) 67.441788 - (zYieldSS) 40.141850 - (vvYieldSS) 6.036047= 123.000000 +- 24.073221 
+TTbar events in signal region = 268.999451 + 40.101551 
+TTbar events in SS region = 67.441788 + 19.154770 
+Diboson events in signal region = 87.671593 + 39.900185 
+Z ->ll in signal region = 40.110229 + 14.347059 
+Z ->ll in SS region = 21.216675 + 7.278469 
+W in signal region = 207.302383 + 37.918282 
+W in SS region = 94.228355 + 18.100060 
+BACKGROUND=1185.264893 +-74.178497 
+LATEX ------------------------------------
+Total & 1203.00  \\ 
+Di-Boson & 87.67 $\pm$ 40.36  \\ 
+$t\bar{t}$ & 269.00 $\pm$ 50.99 \\ 
+$Zll & 40.11 $\pm$ 14.42  \\ 
+$W+jets$ & 207.30 $\pm$ 39.31   \\ 
+QCD & 130.38 $\pm$ 25.64 \\ 
+$Z\rightarrow\tau\tau$ & 450.80 $\pm$ 31.61 & - & - & - \\ 
+Total Background & 1185.26 $\pm$ 83.15 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 1157.899780 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.781696
+OS W in sideband  =1543.000000 -773.409485 -75.959923 -53.987686 = 640.000000 +- 71.487808 
+W Yield = 640.000000 * 0.274209 = 175.494080
+Yield =1039.000000 Lo=1006.946594 Hi=1072.061523
+Yield =312.000000 Lo=294.440125 Hi=330.580719
+SS QCD in  core  = (data) 312.000000 - (wSS)79.770035 -(zllSS)15.808406 -(topSS) 67.441788 - (zYieldSS) 31.124231 - (vvYieldSS) 5.283669= 113.000000 +- 22.403143 
+TTbar events in signal region = 267.082672 + 39.938896 
+TTbar events in SS region = 67.441788 + 19.154770 
+Diboson events in signal region = 85.887444 + 39.543201 
+Z ->ll in signal region = 33.622963 + 12.520219 
+Z ->ll in SS region = 15.808406 + 5.993833 
+W in signal region = 175.494080 + 33.478447 
+W in SS region = 79.770035 + 15.920536 
+BACKGROUND=1064.063477 +-70.756836 
+LATEX ------------------------------------
+Total & 1039.00  \\ 
+Di-Boson & 85.89 $\pm$ 39.99  \\ 
+$t\bar{t}$ & 267.08 $\pm$ 50.72 \\ 
+$Zll & 33.62 $\pm$ 12.58  \\ 
+$W+jets$ & 175.49 $\pm$ 34.61   \\ 
+QCD & 119.78 $\pm$ 23.85 \\ 
+$Z\rightarrow\tau\tau$ & 382.20 $\pm$ 26.80 & - & - & - \\ 
+Total Background & 1064.06 $\pm$ 78.11 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 757.547241 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.511419
+OS W in sideband  =1194.000000 -734.892029 -58.985489 -36.632820 = 363.000000 +- 67.548492 
+W Yield = 363.000000 * 0.274209 = 99.538048
+Yield =751.000000 Lo=723.749878 Hi=779.260925
+Yield =227.000000 Lo=212.024353 Hi=243.001343
+SS QCD in  core  = (data) 227.000000 - (wSS)45.244568 -(zllSS)7.734398 -(topSS) 61.142174 - (zYieldSS) 16.384529 - (vvYieldSS) 5.082857= 91.000000 +- 18.934023 
+TTbar events in signal region = 240.790680 + 37.279278 
+TTbar events in SS region = 61.142174 + 17.735933 
+Diboson events in signal region = 57.393517 + 30.677832 
+Z ->ll in signal region = 26.723566 + 10.609951 
+Z ->ll in SS region = 7.734398 + 4.032143 
+W in signal region = 99.538048 + 24.083769 
+W in SS region = 45.244568 + 11.264242 
+BACKGROUND=770.954895 +-58.568146 
+LATEX ------------------------------------
+Total & 751.00  \\ 
+Di-Boson & 57.39 $\pm$ 30.93  \\ 
+$t\bar{t}$ & 240.79 $\pm$ 46.73 \\ 
+$Zll & 26.72 $\pm$ 10.65  \\ 
+$W+jets$ & 99.54 $\pm$ 24.59   \\ 
+QCD & 96.46 $\pm$ 20.15 \\ 
+$Z\rightarrow\tau\tau$ & 250.05 $\pm$ 17.54 & - & - & - \\ 
+Total Background & 770.95 $\pm$ 63.19 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 712.906189 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.481282
+OS W in sideband  =1228.000000 -721.047791 -61.909760 -15.601518 = 429.000000 +- 66.664413 
+W Yield = 429.000000 * 0.274209 = 117.635872
+Yield =781.000000 Lo=753.210754 Hi=809.799683
+Yield =229.000000 Lo=213.958450 Hi=245.067093
+SS QCD in  core  = (data) 229.000000 - (wSS)53.470852 -(zllSS)7.810707 -(topSS) 59.000015 - (zYieldSS) 23.931952 - (vvYieldSS) 4.824856= 80.000000 +- 19.573877 
+TTbar events in signal region = 250.358154 + 38.206367 
+TTbar events in SS region = 59.000015 + 17.735716 
+Diboson events in signal region = 43.211903 + 20.712280 
+Z ->ll in signal region = 19.586035 + 8.388439 
+Z ->ll in SS region = 7.810707 + 4.581841 
+W in signal region = 117.635872 + 25.789566 
+W in SS region = 53.470852 + 12.134830 
+BACKGROUND=750.906067 +-55.297657 
+LATEX ------------------------------------
+Total & 781.00  \\ 
+Di-Boson & 43.21 $\pm$ 20.93  \\ 
+$t\bar{t}$ & 250.36 $\pm$ 48.15 \\ 
+$Zll & 19.59 $\pm$ 8.42  \\ 
+$W+jets$ & 117.64 $\pm$ 26.45   \\ 
+QCD & 84.80 $\pm$ 20.81 \\ 
+$Z\rightarrow\tau\tau$ & 235.31 $\pm$ 16.51 & - & - & - \\ 
+Total Background & 750.91 $\pm$ 60.05 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 645.685913 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.435902
+OS W in sideband  =1183.000000 -721.047791 -61.660694 -15.038644 = 385.000000 +- 66.323555 
+W Yield = 385.000000 * 0.274209 = 105.570656
+Yield =735.000000 Lo=708.041809 Hi=762.969177
+Yield =216.000000 Lo=201.392166 Hi=231.634354
+SS QCD in  core  = (data) 216.000000 - (wSS)47.986660 -(zllSS)7.810707 -(topSS) 59.000015 - (zYieldSS) 18.132362 - (vvYieldSS) 4.818034= 78.000000 +- 18.706282 
+TTbar events in signal region = 250.690964 + 38.218639 
+TTbar events in SS region = 59.000015 + 17.735716 
+Diboson events in signal region = 43.151833 + 20.700933 
+Z ->ll in signal region = 17.159649 + 7.645351 
+Z ->ll in SS region = 7.810707 + 4.581841 
+W in signal region = 105.570656 + 24.439495 
+W in SS region = 47.986660 + 11.459886 
+BACKGROUND=712.379272 +-54.231510 
+LATEX ------------------------------------
+Total & 735.00  \\ 
+Di-Boson & 43.15 $\pm$ 20.92  \\ 
+$t\bar{t}$ & 250.69 $\pm$ 48.18 \\ 
+$Zll & 17.16 $\pm$ 7.67  \\ 
+$W+jets$ & 105.57 $\pm$ 25.00   \\ 
+QCD & 82.68 $\pm$ 19.89 \\ 
+$Z\rightarrow\tau\tau$ & 213.13 $\pm$ 14.95 & - & - & - \\ 
+Total Background & 712.38 $\pm$ 58.60 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 541.302246 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.365432
+OS W in sideband  =1096.000000 -688.952393 -57.636585 -12.552446 = 337.000000 +- 64.601845 
+W Yield = 337.000000 * 0.274209 = 92.408600
+Yield =644.000000 Lo=618.766357 Hi=670.245911
+Yield =186.000000 Lo=172.445938 Hi=200.583221
+SS QCD in  core  = (data) 186.000000 - (wSS)42.003906 -(zllSS)4.646696 -(topSS) 59.000015 - (zYieldSS) 11.359000 - (vvYieldSS) 4.069990= 65.000000 +- 17.212584 
+TTbar events in signal region = 248.530731 + 38.045128 
+TTbar events in SS region = 59.000015 + 17.735716 
+Diboson events in signal region = 41.916843 + 20.459993 
+Z ->ll in signal region = 16.263906 + 7.473292 
+Z ->ll in SS region = 4.646696 + 3.253943 
+W in signal region = 92.408600 + 22.760080 
+W in SS region = 42.003906 + 10.634806 
+BACKGROUND=646.691650 +-52.677383 
+LATEX ------------------------------------
+Total & 644.00  \\ 
+Di-Boson & 41.92 $\pm$ 20.66  \\ 
+$t\bar{t}$ & 248.53 $\pm$ 47.89 \\ 
+$Zll & 16.26 $\pm$ 7.50  \\ 
+$W+jets$ & 92.41 $\pm$ 23.22   \\ 
+QCD & 68.90 $\pm$ 18.29 \\ 
+$Z\rightarrow\tau\tau$ & 178.67 $\pm$ 12.54 & - & - & - \\ 
+Total Background & 646.69 $\pm$ 56.48 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 360.082306 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.243091
+OS W in sideband  =908.000000 -658.219299 -46.965939 -10.291471 = 193.000000 +- 62.116482 
+W Yield = 193.000000 * 0.274209 = 52.922432
+Yield =480.000000 Lo=458.216431 Hi=502.798920
+Yield =143.000000 Lo=131.118271 Hi=155.916016
+SS QCD in  core  = (data) 143.000000 - (wSS)24.055649 -(zllSS)2.434283 -(topSS) 52.700401 - (zYieldSS) 4.738460 - (vvYieldSS) 3.966161= 55.000000 +- 15.108306 
+TTbar events in signal region = 221.153793 + 35.282322 
+TTbar events in SS region = 52.700401 + 16.244247 
+Diboson events in signal region = 15.138751 + 5.125834 
+Z ->ll in signal region = 11.828236 + 6.120239 
+Z ->ll in SS region = 2.434283 + 2.353022 
+W in signal region = 52.922432 + 18.897139 
+W in SS region = 24.055649 + 8.704723 
+BACKGROUND=478.198181 +-43.858952 
+LATEX ------------------------------------
+Total & 480.00  \\ 
+Di-Boson & 15.14 $\pm$ 5.23  \\ 
+$t\bar{t}$ & 221.15 $\pm$ 43.76 \\ 
+$Zll & 11.83 $\pm$ 6.14  \\ 
+$W+jets$ & 52.92 $\pm$ 19.08   \\ 
+QCD & 58.30 $\pm$ 16.05 \\ 
+$Z\rightarrow\tau\tau$ & 118.85 $\pm$ 8.34 & - & - & - \\ 
+Total Background & 478.20 $\pm$ 46.71 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 205.134598 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.138486
+OS W in sideband  =788.000000 -612.128235 -44.481373 -3.370077 = 128.000000 +- 59.253071 
+W Yield = 128.000000 * 0.274209 = 35.098816
+Yield =377.000000 Lo=357.696014 Hi=397.322266
+Yield =109.000000 Lo=98.629845 Hi=120.410507
+SS QCD in  core  = (data) 109.000000 - (wSS)15.954007 -(zllSS)2.338432 -(topSS) 59.000015 - (zYieldSS) 4.480642 - (vvYieldSS) 2.718588= 25.000000 +- 13.614684 
+TTbar events in signal region = 227.239182 + 35.814873 
+TTbar events in SS region = 59.000015 + 17.735716 
+Diboson events in signal region = 13.397640 + 4.658351 
+Z ->ll in signal region = 7.137253 + 4.520149 
+Found error above value -> Setting error to value
+Z ->ll in SS region = 2.338432 + 2.315048 
+W in signal region = 35.098816 + 17.130421 
+W in SS region = 15.954007 + 7.842583 
+BACKGROUND=377.083191 +-42.742695 
+LATEX ------------------------------------
+Total & 377.00  \\ 
+Di-Boson & 13.40 $\pm$ 4.75  \\ 
+$t\bar{t}$ & 227.24 $\pm$ 44.61 \\ 
+$Zll & 7.14 $\pm$ 4.53  \\ 
+$W+jets$ & 35.10 $\pm$ 17.22   \\ 
+QCD & 26.50 $\pm$ 14.44 \\ 
+$Z\rightarrow\tau\tau$ & 67.71 $\pm$ 4.76 & - & - & - \\ 
+Total Background & 377.08 $\pm$ 45.22 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 196.058685 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.132359
+OS W in sideband  =779.000000 -612.128235 -44.360596 -3.370077 = 119.000000 +- 59.177032 
+W Yield = 119.000000 * 0.274209 = 32.630932
+Yield =370.000000 Lo=350.876190 Hi=390.142334
+Yield =105.000000 Lo=94.822433 Hi=116.218826
+SS QCD in  core  = (data) 105.000000 - (wSS)14.832241 -(zllSS)2.338432 -(topSS) 59.000015 - (zYieldSS) 4.480642 - (vvYieldSS) 2.718588= 22.000000 +- 13.451637 
+TTbar events in signal region = 227.284119 + 35.816479 
+TTbar events in SS region = 59.000015 + 17.735716 
+Diboson events in signal region = 13.396899 + 4.658159 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Found error above value -> Setting error to value
+Z ->ll in SS region = 2.338432 + 2.315048 
+W in signal region = 32.630932 + 16.993433 
+W in SS region = 14.832241 + 7.773126 
+BACKGROUND=366.057343 +-42.538509 
+LATEX ------------------------------------
+Total & 370.00  \\ 
+Di-Boson & 13.40 $\pm$ 4.75  \\ 
+$t\bar{t}$ & 227.28 $\pm$ 44.62 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 32.63 $\pm$ 17.07   \\ 
+QCD & 23.32 $\pm$ 14.27 \\ 
+$Z\rightarrow\tau\tau$ & 64.71 $\pm$ 4.55 & - & - & - \\ 
+Total Background & 366.06 $\pm$ 45.00 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 178.194763 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.120299
+OS W in sideband  =758.000000 -601.452759 -42.031685 -3.370077 = 111.000000 +- 58.660870 
+W Yield = 111.000000 * 0.274209 = 30.437254
+Yield =360.000000 Lo=341.136566 Hi=379.882294
+Yield =94.000000 Lo=84.371902 Hi=104.672134
+SS QCD in  core  = (data) 94.000000 - (wSS)13.835114 -(zllSS)2.338432 -(topSS) 59.000015 - (zYieldSS) 4.480642 - (vvYieldSS) 2.017224= 12.000000 +- 12.961720 
+TTbar events in signal region = 224.695526 + 35.624039 
+TTbar events in SS region = 59.000015 + 17.735716 
+Diboson events in signal region = 13.361350 + 4.648897 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Found error above value -> Setting error to value
+Z ->ll in SS region = 2.338432 + 2.315048 
+W in signal region = 30.437254 + 16.759914 
+W in SS region = 13.835114 + 7.661242 
+BACKGROUND=344.743042 +-42.108433 
+LATEX ------------------------------------
+Total & 360.00  \\ 
+Di-Boson & 13.36 $\pm$ 4.74  \\ 
+$t\bar{t}$ & 224.70 $\pm$ 44.28 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 30.44 $\pm$ 16.83   \\ 
+QCD & 12.72 $\pm$ 13.74 \\ 
+$Z\rightarrow\tau\tau$ & 58.82 $\pm$ 4.13 & - & - & - \\ 
+Total Background & 344.74 $\pm$ 44.50 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 134.044189 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.090493
+OS W in sideband  =668.000000 -576.640320 -36.806202 -3.370077 = 51.000000 +- 57.005909 
+W Yield = 51.000000 * 0.274209 = 13.984684
+Yield =296.000000 Lo=278.896698 Hi=314.124878
+Yield =82.000000 Lo=73.009552 Hi=92.038116
+SS QCD in  core  = (data) 82.000000 - (wSS)6.356675 -(zllSS)2.338432 -(topSS) 52.700401 - (zYieldSS) 2.338432 - (vvYieldSS) 1.989717= 16.000000 +- 12.140495 
+TTbar events in signal region = 200.729736 + 33.138920 
+TTbar events in SS region = 52.700401 + 16.244247 
+Diboson events in signal region = 10.832434 + 3.891876 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Found error above value -> Setting error to value
+Z ->ll in SS region = 2.338432 + 2.315048 
+Found error above value -> Setting error to value
+W in signal region = 13.984684 + 13.844837 
+Found error above value -> Setting error to value
+W in SS region = 6.356675 + 6.293108 
+BACKGROUND=291.462646 +-38.515034 
+LATEX ------------------------------------
+Total & 296.00  \\ 
+Di-Boson & 10.83 $\pm$ 3.96  \\ 
+$t\bar{t}$ & 200.73 $\pm$ 40.62 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 13.98 $\pm$ 13.86   \\ 
+QCD & 16.96 $\pm$ 12.87 \\ 
+$Z\rightarrow\tau\tau$ & 44.24 $\pm$ 3.11 & - & - & - \\ 
+Total Background & 291.46 $\pm$ 40.54 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 119.702393 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.080811
+OS W in sideband  =589.000000 -502.960022 -34.866539 -0.000000 = 51.000000 +- 53.264584 
+W Yield = 51.000000 * 0.274209 = 13.984684
+Yield =264.000000 Lo=247.848541 Hi=281.174744
+Yield =71.000000 Lo=62.636684 Hi=80.415100
+SS QCD in  core  = (data) 71.000000 - (wSS)6.356675 -(zllSS)0.000000 -(topSS) 51.691776 - (zYieldSS) 0.000000 - (vvYieldSS) 1.755150= 11.000000 +- 11.134480 
+TTbar events in signal region = 184.377151 + 31.560289 
+TTbar events in SS region = 51.691776 + 16.552416 
+Diboson events in signal region = 8.966444 + 3.273051 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 13.984684 + 13.844837 
+Found error above value -> Setting error to value
+W in SS region = 6.356675 + 6.293108 
+BACKGROUND=260.806274 +-36.648067 
+LATEX ------------------------------------
+Total & 264.00  \\ 
+Di-Boson & 8.97 $\pm$ 3.33  \\ 
+$t\bar{t}$ & 184.38 $\pm$ 38.23 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 13.98 $\pm$ 13.86   \\ 
+QCD & 11.66 $\pm$ 11.80 \\ 
+$Z\rightarrow\tau\tau$ & 39.51 $\pm$ 2.78 & - & - & - \\ 
+Total Background & 260.81 $\pm$ 38.44 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 117.953331 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.079630
+OS W in sideband  =586.000000 -502.960022 -34.809551 -0.000000 = 48.000000 +- 53.236385 
+W Yield = 48.000000 * 0.274209 = 13.162056
+Yield =260.000000 Lo=243.971497 Hi=277.052032
+Yield =70.000000 Lo=61.696045 Hi=79.356163
+SS QCD in  core  = (data) 70.000000 - (wSS)5.982753 -(zllSS)0.000000 -(topSS) 51.691776 - (zYieldSS) 0.000000 - (vvYieldSS) 1.755150= 11.000000 +- 11.084456 
+TTbar events in signal region = 184.385818 + 31.560574 
+TTbar events in SS region = 51.691776 + 16.552416 
+Diboson events in signal region = 8.966444 + 3.273051 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 13.162056 + 13.030436 
+Found error above value -> Setting error to value
+W in SS region = 5.982753 + 5.922925 
+BACKGROUND=259.414978 +-36.331276 
+LATEX ------------------------------------
+Total & 260.00  \\ 
+Di-Boson & 8.97 $\pm$ 3.33  \\ 
+$t\bar{t}$ & 184.39 $\pm$ 38.23 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 13.16 $\pm$ 13.05   \\ 
+QCD & 11.66 $\pm$ 11.75 \\ 
+$Z\rightarrow\tau\tau$ & 38.93 $\pm$ 2.74 & - & - & - \\ 
+Total Background & 259.41 $\pm$ 38.13 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 109.163734 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.073696
+OS W in sideband  =572.000000 -492.284546 -33.115044 -0.000000 = 47.000000 +- 52.732246 
+W Yield = 47.000000 * 0.274209 = 12.887846
+Yield =255.000000 Lo=239.126526 Hi=271.897278
+Yield =64.000000 Lo=56.061535 Hi=72.993401
+SS QCD in  core  = (data) 64.000000 - (wSS)5.858111 -(zllSS)0.000000 -(topSS) 51.691776 - (zYieldSS) 0.000000 - (vvYieldSS) 1.755150= 5.000000 +- 10.757879 
+TTbar events in signal region = 181.752289 + 31.360476 
+TTbar events in SS region = 51.691776 + 16.552416 
+Diboson events in signal region = 8.932373 + 3.264566 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 12.887846 + 12.758967 
+Found error above value -> Setting error to value
+W in SS region = 5.858111 + 5.799530 
+BACKGROUND=247.211929 +-35.947960 
+LATEX ------------------------------------
+Total & 255.00  \\ 
+Di-Boson & 8.93 $\pm$ 3.32  \\ 
+$t\bar{t}$ & 181.75 $\pm$ 37.90 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 12.89 $\pm$ 12.78   \\ 
+QCD & 5.30 $\pm$ 11.40 \\ 
+$Z\rightarrow\tau\tau$ & 36.03 $\pm$ 2.54 & - & - & - \\ 
+Total Background & 247.21 $\pm$ 37.70 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 86.880112 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.058653
+OS W in sideband  =516.000000 -471.785675 -28.845585 -0.000000 = 15.000000 +- 51.403084 
+W Yield = 15.000000 * 0.274209 = 4.113142
+Yield =219.000000 Lo=204.290939 Hi=234.735352
+Yield =55.000000 Lo=47.643757 Hi=63.416092
+SS QCD in  core  = (data) 55.000000 - (wSS)1.869610 -(zllSS)0.000000 -(topSS) 45.392162 - (zYieldSS) 0.000000 - (vvYieldSS) 1.732130= 6.000000 +- 10.197499 
+TTbar events in signal region = 165.336502 + 29.466221 
+TTbar events in SS region = 45.392162 + 14.991372 
+Diboson events in signal region = 7.080016 + 2.695341 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 4.113142 + 4.072011 
+Found error above value -> Setting error to value
+W in SS region = 1.869610 + 1.850914 
+BACKGROUND=213.873764 +-31.846947 
+LATEX ------------------------------------
+Total & 219.00  \\ 
+Di-Boson & 7.08 $\pm$ 2.74  \\ 
+$t\bar{t}$ & 165.34 $\pm$ 35.25 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 4.11 $\pm$ 4.08   \\ 
+QCD & 6.36 $\pm$ 10.81 \\ 
+$Z\rightarrow\tau\tau$ & 28.68 $\pm$ 2.02 & - & - & - \\ 
+Total Background & 213.87 $\pm$ 33.46 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 182.891876 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.123470
+OS W in sideband  =579.000000 -400.714691 -21.057297 -2.486197 = 155.000000 +- 48.618073 
+W Yield = 155.000000 * 0.274209 = 42.502472
+Yield =295.000000 Lo=277.925629 Hi=313.095978
+Yield =60.000000 Lo=52.314850 Hi=68.742134
+SS QCD in  core  = (data) 60.000000 - (wSS)19.319305 -(zllSS)3.164011 -(topSS) 33.021622 - (zYieldSS) 3.164011 - (vvYieldSS) 0.993154= 0.000000 +- 10.767353 
+TTbar events in signal region = 177.807877 + 30.890430 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 9.382905 + 3.436053 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Found error above value -> Setting error to value
+Z ->ll in SS region = 3.164011 + 3.132371 
+W in signal region = 42.502472 + 14.863770 
+W in SS region = 19.319305 + 6.850628 
+BACKGROUND=294.772552 +-36.468307 
+LATEX ------------------------------------
+Total & 295.00  \\ 
+Di-Boson & 9.38 $\pm$ 3.50  \\ 
+$t\bar{t}$ & 177.81 $\pm$ 37.25 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 42.50 $\pm$ 15.01   \\ 
+QCD & 0.00 $\pm$ 11.41 \\ 
+$Z\rightarrow\tau\tau$ & 60.37 $\pm$ 4.24 & - & - & - \\ 
+Total Background & 294.77 $\pm$ 38.34 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 166.818466 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.112619
+OS W in sideband  =570.000000 -400.714691 -21.056910 -2.486197 = 146.000000 +- 48.525425 
+W Yield = 146.000000 * 0.274209 = 40.034588
+Yield =287.000000 Lo=270.158966 Hi=304.863068
+Yield =58.000000 Lo=50.444695 Hi=66.613396
+SS QCD in  core  = (data) 58.000000 - (wSS)18.197540 -(zllSS)3.164011 -(topSS) 33.021622 - (zYieldSS) 3.164011 - (vvYieldSS) 0.991867= -1.000000 +- 10.655335 
+TTbar events in signal region = 177.887466 + 30.893009 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 9.382198 + 3.435879 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Found error above value -> Setting error to value
+Z ->ll in SS region = 3.164011 + 3.132371 
+W in signal region = 40.034588 + 14.675955 
+W in SS region = 18.197540 + 6.755740 
+BACKGROUND=287.078094 +-34.610855 
+LATEX ------------------------------------
+Total & 287.00  \\ 
+Di-Boson & 9.38 $\pm$ 3.50  \\ 
+$t\bar{t}$ & 177.89 $\pm$ 37.25 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 40.03 $\pm$ 14.81   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 55.06 $\pm$ 3.87 & - & - & - \\ 
+Total Background & 287.08 $\pm$ 36.53 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 142.671326 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.096317
+OS W in sideband  =549.000000 -394.381226 -20.036890 -0.000000 = 135.000000 +- 48.013313 
+W Yield = 135.000000 * 0.274209 = 37.018284
+Yield =264.000000 Lo=247.848541 Hi=281.174744
+Yield =52.000000 Lo=44.848362 Hi=60.213402
+SS QCD in  core  = (data) 52.000000 - (wSS)16.826492 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.959410= 1.000000 +- 9.810547 
+TTbar events in signal region = 178.007019 + 30.896881 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 8.794216 + 3.255550 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Z ->ll in SS region = 0.000000 + 0.000000 
+W in signal region = 37.018284 + 14.356463 
+W in SS region = 16.826492 + 6.599877 
+BACKGROUND=276.682922 +-35.946560 
+LATEX ------------------------------------
+Total & 264.00  \\ 
+Di-Boson & 8.79 $\pm$ 3.31  \\ 
+$t\bar{t}$ & 178.01 $\pm$ 37.27 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 37.02 $\pm$ 14.48   \\ 
+QCD & 1.06 $\pm$ 10.40 \\ 
+$Z\rightarrow\tau\tau$ & 47.09 $\pm$ 3.31 & - & - & - \\ 
+Total Background & 276.68 $\pm$ 37.74 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 106.438248 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.071856
+OS W in sideband  =490.000000 -381.671204 -18.300253 -0.000000 = 90.000000 +- 46.814236 
+W Yield = 90.000000 * 0.274209 = 24.678856
+Yield =215.000000 Lo=200.426056 Hi=230.600540
+Yield =48.000000 Lo=41.130650 Hi=55.933941
+SS QCD in  core  = (data) 48.000000 - (wSS)11.217662 -(zllSS)0.000000 -(topSS) 26.722006 - (zYieldSS) 0.000000 - (vvYieldSS) 0.934299= 9.000000 +- 9.469556 
+TTbar events in signal region = 161.948685 + 29.268824 
+TTbar events in SS region = 26.722006 + 11.452538 
+Diboson events in signal region = 6.904722 + 2.687546 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Z ->ll in SS region = 0.000000 + 0.000000 
+W in signal region = 24.678856 + 13.392223 
+W in SS region = 11.217662 + 6.122830 
+BACKGROUND=242.915970 +-34.010166 
+LATEX ------------------------------------
+Total & 215.00  \\ 
+Di-Boson & 6.90 $\pm$ 2.73  \\ 
+$t\bar{t}$ & 161.95 $\pm$ 34.87 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 24.68 $\pm$ 13.45   \\ 
+QCD & 9.54 $\pm$ 10.04 \\ 
+$Z\rightarrow\tau\tau$ & 35.13 $\pm$ 2.47 & - & - & - \\ 
+Total Background & 242.92 $\pm$ 35.52 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 37.305470 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.025185
+OS W in sideband  =223.000000 -202.978485 -6.424362 -0.000000 = 14.000000 +- 33.845791 
+W Yield = 14.000000 * 0.274209 = 3.838933
+Yield =100.000000 Lo=90.068420 Hi=110.974045
+Yield =16.000000 Lo=12.060540 Hi=21.056690
+SS QCD in  core  = (data) 16.000000 - (wSS)1.744969 -(zllSS)0.000000 -(topSS) 14.925894 - (zYieldSS) 0.000000 - (vvYieldSS) 0.001923= -1.000000 +- 6.167657 
+TTbar events in signal region = 113.027039 + 23.573999 
+TTbar events in SS region = 14.925894 + 8.976305 
+Diboson events in signal region = 2.579321 + 1.292400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 3.838933 + 3.800544 
+Found error above value -> Setting error to value
+W in SS region = 1.744969 + 1.727520 
+BACKGROUND=134.065948 +-24.098253 
+LATEX ------------------------------------
+Total & 100.00  \\ 
+Di-Boson & 2.58 $\pm$ 1.30  \\ 
+$t\bar{t}$ & 113.03 $\pm$ 27.03 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 3.84 $\pm$ 3.81   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 12.31 $\pm$ 0.88 & - & - & - \\ 
+Total Background & 134.07 $\pm$ 25.08 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 36.831902 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.024865
+OS W in sideband  =223.000000 -202.978485 -6.424362 -0.000000 = 14.000000 +- 33.845791 
+W Yield = 14.000000 * 0.274209 = 3.838933
+Yield =100.000000 Lo=90.068420 Hi=110.974045
+Yield =16.000000 Lo=12.060540 Hi=21.056690
+SS QCD in  core  = (data) 16.000000 - (wSS)1.744969 -(zllSS)0.000000 -(topSS) 14.925894 - (zYieldSS) 0.000000 - (vvYieldSS) 0.001923= -1.000000 +- 6.167657 
+TTbar events in signal region = 113.029388 + 23.574062 
+TTbar events in SS region = 14.925894 + 8.976305 
+Diboson events in signal region = 2.579321 + 1.292400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 3.838933 + 3.800544 
+Found error above value -> Setting error to value
+W in SS region = 1.744969 + 1.727520 
+BACKGROUND=133.911987 +-24.098307 
+LATEX ------------------------------------
+Total & 100.00  \\ 
+Di-Boson & 2.58 $\pm$ 1.30  \\ 
+$t\bar{t}$ & 113.03 $\pm$ 27.03 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 3.84 $\pm$ 3.81   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 12.16 $\pm$ 0.86 & - & - & - \\ 
+Total Background & 133.91 $\pm$ 25.08 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 33.721127 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.022765
+OS W in sideband  =222.000000 -202.978485 -6.424362 -0.000000 = 13.000000 +- 33.831013 
+W Yield = 13.000000 * 0.274209 = 3.564723
+Yield =100.000000 Lo=90.068420 Hi=110.974045
+Yield =14.000000 Lo=10.320401 Hi=18.805403
+SS QCD in  core  = (data) 14.000000 - (wSS)1.620329 -(zllSS)0.000000 -(topSS) 14.925894 - (zYieldSS) 0.000000 - (vvYieldSS) 0.001923= -3.000000 +- 5.982397 
+TTbar events in signal region = 113.044785 + 23.574478 
+TTbar events in SS region = 14.925894 + 8.976305 
+Diboson events in signal region = 2.579321 + 1.292400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 3.564723 + 3.529076 
+Found error above value -> Setting error to value
+W in SS region = 1.620329 + 1.604125 
+BACKGROUND=132.626373 +-24.057358 
+LATEX ------------------------------------
+Total & 100.00  \\ 
+Di-Boson & 2.58 $\pm$ 1.30  \\ 
+$t\bar{t}$ & 113.04 $\pm$ 27.03 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 3.56 $\pm$ 3.53   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 11.13 $\pm$ 0.79 & - & - & - \\ 
+Total Background & 132.63 $\pm$ 25.03 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 30.517307 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.020602
+OS W in sideband  =210.000000 -198.899017 -6.424288 -0.000000 = 5.000000 +- 33.405022 
+W Yield = 5.000000 * 0.274209 = 1.371047
+Yield =89.000000 Lo=79.632309 Hi=99.413147
+Yield =13.000000 Lo=9.457479 Hi=17.673330
+SS QCD in  core  = (data) 13.000000 - (wSS)0.623203 -(zllSS)0.000000 -(topSS) 8.626280 - (zYieldSS) 0.000000 - (vvYieldSS) 0.001923= 4.000000 +- 5.849123 
+TTbar events in signal region = 113.060654 + 23.574905 
+TTbar events in SS region = 8.626280 + 6.210526 
+Diboson events in signal region = 2.579321 + 1.292400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 1.371047 + 1.357337 
+Found error above value -> Setting error to value
+W in SS region = 0.623203 + 0.616971 
+BACKGROUND=133.631058 +-24.555439 
+LATEX ------------------------------------
+Total & 89.00  \\ 
+Di-Boson & 2.58 $\pm$ 1.30  \\ 
+$t\bar{t}$ & 113.06 $\pm$ 27.04 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 1.37 $\pm$ 1.36   \\ 
+QCD & 4.24 $\pm$ 6.20 \\ 
+$Z\rightarrow\tau\tau$ & 10.07 $\pm$ 0.72 & - & - & - \\ 
+Total Background & 133.63 $\pm$ 25.51 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 101.241913 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.068348
+OS W in sideband  =478.000000 -389.071503 -18.722565 -0.000000 = 70.000000 +- 47.003120 
+W Yield = 70.000000 * 0.274209 = 19.194664
+Yield =215.000000 Lo=200.426056 Hi=230.600540
+Yield =42.000000 Lo=35.577312 Hi=49.492252
+SS QCD in  core  = (data) 42.000000 - (wSS)8.724847 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.963185= -1.000000 +- 9.131820 
+TTbar events in signal region = 162.368271 + 29.064802 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 7.377475 + 2.840204 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Z ->ll in SS region = 0.000000 + 0.000000 
+W in signal region = 19.194664 + 13.226104 
+W in SS region = 8.724847 + 6.033607 
+BACKGROUND=227.068909 +-32.311928 
+LATEX ------------------------------------
+Total & 215.00  \\ 
+Di-Boson & 7.38 $\pm$ 2.89  \\ 
+$t\bar{t}$ & 162.37 $\pm$ 34.73 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 19.19 $\pm$ 13.26   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 33.42 $\pm$ 2.35 & - & - & - \\ 
+Total Background & 227.07 $\pm$ 33.89 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 96.071739 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.064858
+OS W in sideband  =475.000000 -389.071503 -18.722565 -0.000000 = 67.000000 +- 46.971195 
+W Yield = 67.000000 * 0.274209 = 18.372036
+Yield =214.000000 Lo=199.460037 Hi=229.566635
+Yield =40.000000 Lo=33.733273 Hi=47.338192
+SS QCD in  core  = (data) 40.000000 - (wSS)8.350925 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.963185= -2.000000 +- 9.010407 
+TTbar events in signal region = 162.393875 + 29.065609 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 7.376768 + 2.840039 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Z ->ll in SS region = 0.000000 + 0.000000 
+W in signal region = 18.372036 + 13.189586 
+W in SS region = 8.350925 + 6.015242 
+BACKGROUND=224.564636 +-32.297661 
+LATEX ------------------------------------
+Total & 214.00  \\ 
+Di-Boson & 7.38 $\pm$ 2.89  \\ 
+$t\bar{t}$ & 162.39 $\pm$ 34.73 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 18.37 $\pm$ 13.22   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 31.71 $\pm$ 2.23 & - & - & - \\ 
+Total Background & 224.56 $\pm$ 33.86 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 86.696754 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.058529
+OS W in sideband  =469.000000 -382.738037 -17.887999 -0.000000 = 68.000000 +- 46.669609 
+W Yield = 68.000000 * 0.274209 = 18.646246
+Yield =210.000000 Lo=195.596741 Hi=225.430252
+Yield =37.000000 Lo=30.974787 Hi=44.099812
+SS QCD in  core  = (data) 37.000000 - (wSS)8.475566 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.943600= -5.000000 +- 8.806193 
+TTbar events in signal region = 162.440292 + 29.067066 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 7.376060 + 2.839874 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Z ->ll in SS region = 0.000000 + 0.000000 
+W in signal region = 18.646246 + 13.118097 
+W in SS region = 8.475566 + 5.983459 
+BACKGROUND=221.790070 +-32.269741 
+LATEX ------------------------------------
+Total & 210.00  \\ 
+Di-Boson & 7.38 $\pm$ 2.89  \\ 
+$t\bar{t}$ & 162.44 $\pm$ 34.73 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 18.65 $\pm$ 13.15   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 28.62 $\pm$ 2.02 & - & - & - \\ 
+Total Background & 221.79 $\pm$ 33.83 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 67.518562 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.045582
+OS W in sideband  =426.000000 -370.028015 -17.073116 -0.000000 = 39.000000 +- 45.615414 
+W Yield = 39.000000 * 0.274209 = 10.694170
+Yield =177.000000 Lo=163.778442 Hi=191.251633
+Yield =35.000000 Lo=29.141329 Hi=41.935581
+SS QCD in  core  = (data) 35.000000 - (wSS)4.860986 -(zllSS)0.000000 -(topSS) 26.722006 - (zYieldSS) 0.000000 - (vvYieldSS) 0.919090= 2.000000 +- 8.585975 
+TTbar events in signal region = 150.387329 + 27.805864 
+TTbar events in SS region = 26.722006 + 11.452538 
+Diboson events in signal region = 6.214098 + 2.487291 
+Z ->ll in signal region = 4.710866 + 3.549792 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 10.694170 + 10.587229 
+Found error above value -> Setting error to value
+W in SS region = 4.860986 + 4.812376 
+BACKGROUND=196.412781 +-31.415195 
+LATEX ------------------------------------
+Total & 177.00  \\ 
+Di-Boson & 6.21 $\pm$ 2.52  \\ 
+$t\bar{t}$ & 150.39 $\pm$ 32.91 \\ 
+$Zll & 4.71 $\pm$ 3.55  \\ 
+$W+jets$ & 10.69 $\pm$ 10.60   \\ 
+QCD & 2.12 $\pm$ 9.10 \\ 
+$Z\rightarrow\tau\tau$ & 22.29 $\pm$ 1.57 & - & - & - \\ 
+Total Background & 196.41 $\pm$ 32.76 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 66.299332 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.044759
+OS W in sideband  =380.000000 -338.433075 -14.231606 -0.000000 = 27.000000 +- 43.433914 
+W Yield = 27.000000 * 0.274209 = 7.403656
+Yield =159.000000 Lo=146.469894 Hi=172.562241
+Yield =30.000000 Lo=24.580042 Hi=36.503620
+SS QCD in  core  = (data) 30.000000 - (wSS)3.365299 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.913153= -7.000000 +- 8.079369 
+TTbar events in signal region = 136.444885 + 26.185627 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 5.900339 + 2.348400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 7.403656 + 7.329620 
+Found error above value -> Setting error to value
+W in SS region = 3.365299 + 3.331645 
+BACKGROUND=173.939743 +-27.455790 
+LATEX ------------------------------------
+Total & 159.00  \\ 
+Di-Boson & 5.90 $\pm$ 2.38  \\ 
+$t\bar{t}$ & 136.44 $\pm$ 30.67 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 7.40 $\pm$ 7.34   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 21.88 $\pm$ 1.55 & - & - & - \\ 
+Total Background & 173.94 $\pm$ 28.73 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 65.017342 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.043893
+OS W in sideband  =379.000000 -338.433075 -14.231606 -0.000000 = 26.000000 +- 43.422401 
+W Yield = 26.000000 * 0.274209 = 7.129447
+Yield =158.000000 Lo=145.509430 Hi=171.522827
+Yield =29.000000 Lo=23.672121 Hi=35.413097
+SS QCD in  core  = (data) 29.000000 - (wSS)3.240658 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.913153= -8.000000 +- 8.011079 
+TTbar events in signal region = 136.451233 + 26.185812 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 5.900339 + 2.348400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 7.129447 + 7.058153 
+Found error above value -> Setting error to value
+W in SS region = 3.240658 + 3.208251 
+BACKGROUND=173.248718 +-27.384733 
+LATEX ------------------------------------
+Total & 158.00  \\ 
+Di-Boson & 5.90 $\pm$ 2.38  \\ 
+$t\bar{t}$ & 136.45 $\pm$ 30.67 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 7.13 $\pm$ 7.07   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 21.46 $\pm$ 1.52 & - & - & - \\ 
+Total Background & 173.25 $\pm$ 28.66 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 60.477707 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.040828
+OS W in sideband  =375.000000 -332.099609 -13.397041 -0.000000 = 30.000000 +- 43.119190 
+W Yield = 30.000000 * 0.274209 = 8.226285
+Yield =156.000000 Lo=143.588882 Hi=169.443634
+Yield =28.000000 Lo=22.765821 Hi=34.321037
+SS QCD in  core  = (data) 28.000000 - (wSS)3.739220 -(zllSS)0.000000 -(topSS) 33.021622 - (zYieldSS) 0.000000 - (vvYieldSS) 0.913153= -10.000000 +- 7.918363 
+TTbar events in signal region = 136.473709 + 26.186470 
+TTbar events in SS region = 33.021622 + 13.293850 
+Diboson events in signal region = 5.900339 + 2.348400 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 8.226285 + 8.144022 
+Found error above value -> Setting error to value
+W in SS region = 3.739220 + 3.701828 
+BACKGROUND=172.869614 +-27.685064 
+LATEX ------------------------------------
+Total & 156.00  \\ 
+Di-Boson & 5.90 $\pm$ 2.38  \\ 
+$t\bar{t}$ & 136.47 $\pm$ 30.67 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 8.23 $\pm$ 8.15   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 19.96 $\pm$ 1.41 & - & - & - \\ 
+Total Background & 172.87 $\pm$ 28.94 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
+MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+/afs/hep.wisc.edu/cms/ojalvo/mssm8TeV/CMSSW_5_3_7/bin/slc5_amd64_gcc462/MakeDataCard: /usr/lib64/libxml2.so.2: no version information available (required by /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/external/slc5_amd64_gcc462/lib/libXMLParser.so)
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Warning in <TDirectoryFile::Append>: Replacing existing TH1: W_Low (Potential memory leak).
+Binning HighSTat has 0 entries ,LowStat has 0 entries
+INCLUSIVE-------------------------------------
+Tau ID Scale Factor is 1.000 
+W Cut Correction = 0.973793 
+emb before events = 2522.880859 
+emb inclusive events = 1481.265503 
+mc before events = 832.745422 
+mc inclusive events = 502.090057 
+Yield =1287.000000 Lo=1251.324951 Hi=1323.681519
+Yield =375.000000 Lo=355.747314 Hi=395.271027
+Yield =1788.000000 Lo=1745.949829 Hi=1831.054565
+Yield =577.000000 Lo=553.115540 Hi=601.897827
+TTbar events in signal region = 275.761475 + 40.359077 
+TTbar events in SS signal region = 67.441788 + 17.928225 
+TTbar events in sideband region = 814.680237 + 85.442024 
+TTbar events in SS sideband region = 148.043030 + 27.584799 
+Diboson events in signal region = 88.009056 + 39.967243 
+Diboson events in sideband region = 81.448204 + 25.108637 
+Z (l->tau) in signal region = 9.924011 + 5.231049 
+Z (j->tau) in signal region = 38.204014 + 10.578871 
+Z (l->tau) in SS region = 0.000000 + 0.000000 
+Z (j->tau) in SS region = 43.081985 + 11.097774 
+W extrapolation factor as measured in corrected MC = 0.274534 +- 0.016542
+1. Subtract TTbar and diboson from sidebandOS W in sideband  =1788.000000 -814.680237 -81.448204 -66.808884  = 825.000000 +- 99.570061 
+2. Extrapolate W in the low MT region
+OS W  in core  =825.000000 *0.274534  = 226.490738 +- 30.552551 
+3. Repeat for SS : first subtract TTbar W
+4. From all SS events subtract W and Z jet fakes tau/TTbar to get QCD 
+SS QCD in  core  =375.000000 -102.950333 -43.081985 -0.000000 -67.441788 -2.859456 -6.045919= 153.000000 +- 31.478079 
+5. Extrapolate SS QCD -> OS QCD 
+OS QCD in  core  =153.000000 *1.060000 = 162.179993 +- 33.506783 
+BACKGROUND=1289.501221 +-81.477455 
+LATEX ------------------------------------
+Total & 1287.00 & 1788.00 & 375.00 & 577.00 \\ 
+Di-Boson & 88.01 $\pm$ 40.43 & 81.45 $\pm$ 25.59 & - & - \\ 
+$t\bar{t}$ & 275.76 $\pm$ 43.71 & 814.68 $\pm$ 63.91 & - & - \\ 
+$Z^{l+jet}$ & 38.20 $\pm$ 10.66 & - & 43.08 $\pm$ 11.20 & - \\ 
+$Z^{ll}$ & 9.92 $\pm$ 5.24 & - & 0.00 $\pm$ 0.00 & - \\ 
+$W+jets$ & 226.49 $\pm$ 30.55 & 825.00 $\pm$ 99.57 & 102.95 $\pm$ 12.16 & 577.00 $\pm$ 24.39  \\ 
+QCD & 162.18 $\pm$ 33.51 & - & 153.00 $\pm$ 31.48 & - \\ 
+$Z\rightarrow\tau\tau$ & 488.93 $\pm$ 48.60 & - & - & - \\ 
+Total Background & 1289.50 $\pm$ 90.02 & - & - & - \\ 
+W correction factor =  1.055877 +-0.142433
+W correction factor =  1.233958 +-0.145697
+Tau ID Scale Factor is 1.000 
+You have embedded samples.Calculating corrections on the fly overidding the ones you gave me!
+zttEMYield: 49.516895 zttShapePre: 1481.265503 -------
+Efficiency for embedding =0.033429
+OS W in sideband  =348.000000 -319.389587 -13.076741 -0.000000 = 16.000000 +- 42.168362 
+W Yield = 16.000000 * 0.274209 = 4.387352
+Yield =139.000000 Lo=127.285973 Hi=151.748917
+Yield =26.000000 Lo=20.958447 Hi=32.131966
+SS QCD in  core  = (data) 26.000000 - (wSS)1.994251 -(zllSS)0.000000 -(topSS) 26.722006 - (zYieldSS) 0.000000 - (vvYieldSS) 0.891359= -4.000000 +- 7.696429 
+TTbar events in signal region = 132.038330 + 25.668566 
+TTbar events in SS region = 26.722006 + 11.452538 
+Diboson events in signal region = 4.754168 + 1.989740 
+Found error above value -> Setting error to value
+Z ->ll in signal region = 2.306967 + 2.283897 
+Z ->ll in SS region = 0.000000 + 0.000000 
+Found error above value -> Setting error to value
+W in signal region = 4.387352 + 4.343479 
+Found error above value -> Setting error to value
+W in SS region = 1.994251 + 1.974308 
+BACKGROUND=159.831207 +-26.278986 
+LATEX ------------------------------------
+Total & 139.00  \\ 
+Di-Boson & 4.75 $\pm$ 2.02  \\ 
+$t\bar{t}$ & 132.04 $\pm$ 29.96 \\ 
+$Zll & 2.31 $\pm$ 2.29  \\ 
+$W+jets$ & 4.39 $\pm$ 4.35   \\ 
+QCD & 0.00 $\pm$ 1.91 \\ 
+$Z\rightarrow\tau\tau$ & 16.34 $\pm$ 1.16 & - & - & - \\ 
+Total Background & 159.83 $\pm$ 27.51 & - & - & - \\ 
+Creating QCD Shape Systematic 
+W_CMS_htt_WShape_mutau_1btag_8TeVDown_fine_binning
