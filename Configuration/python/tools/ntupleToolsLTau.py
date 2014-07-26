@@ -176,75 +176,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                     method     = cms.string("leg2.phi"),
                                   leadingOnly=cms.untracked.bool(True)
                               ),
-#                               muTauDZ = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("dz"),
-#                                     method     = cms.string('abs(leg1.userFloat("vz")-leg2.vz())'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
-#                               muTauMudZ = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("l1dz"),
-#                                     method     = cms.string('abs(leg1.userFloat("dz"))'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
-#                               muTauTaudZ = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("l2dz"),
-#                                     method     = cms.string('abs(leg2.userFloat("dZ"))'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),  
-#                               muTauMuvZ = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("l1Vz"),
-#                                     method     = cms.string('leg1.userFloat("vz")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
-#                               muTauTauvZ = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("l2Vz"),
-#                                     method     = cms.string('leg2.userFloat("vz")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),   
-#                               muTauEleDXY = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("l1Dxy"),
-#                                   method     = cms.string('leg1.userFloat("ipDXY")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),                                                                                     
-#                               muTauRho = cms.PSet(
-#                                   pluginType = cms.string("EventWeightFiller"),
-#                                   src        = cms.InputTag("kt6PFJetsForRhoComputationVoronoi","rho"),
-#                                   tag        = cms.string("Rho")
-#                               ),
-
-#                               muTauDCA = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("dca"),
-#                                     method     = cms.string("dca"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
-#                               muTauDist = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("xPointDist"),
-#                                     method     = cms.string("crossingPointDistance"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
-#                               projMET = cms.PSet(
-#                                     pluginType = cms.string("PATMuTauPairFiller"),
-#                                     src        = cms.InputTag(src),
-#                                     tag        = cms.string("projMET"),
-#                                     method     = cms.string("projMET"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
                               METPhi = cms.PSet(
                                     pluginType = cms.string("PATMuTauPairFiller"),
                                     src        = cms.InputTag(src),
@@ -553,48 +484,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                   method     = cms.string("vbfMass"),
                                   leadingOnly=cms.untracked.bool(True)
                               ),
-#                               muTauVBFDPhi = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("vbfDPhi"),
-#                                   method     = cms.string("vbfDPhi"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ), 
-#                               muTauVBFDiJetPt = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("vbfDiJetPt"),
-#                                   method     = cms.string("vbfDiJetPt"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ), 
-#                               muTauVBFDiTauPt = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("vbfDiTauPt"),
-#                                   method     = cms.string("vbfDiTauPt"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),                               
-#                               muTauVBFDPhiHJ = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("vbfDPhiHJ"),
-#                                   method     = cms.string("vbfDPhiHJ"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ), 
-#                               muTauVBFC1 = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("vbfC1"),
-#                                   method     = cms.string("vbfC1"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),  
-#                               muTauVBFC2 = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("vbfC2"),
-#                                   method     = cms.string("vbfC2"),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),                                                                                                                                                                                   
                               muMuVBFJets20 = cms.PSet(
                                   pluginType = cms.string("PATMuTauPairFiller"),
                                   src        = cms.InputTag(src),
@@ -609,13 +498,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                   method     = cms.string("vbfNJetsGap30"),
                                   leadingOnly=cms.untracked.bool(True)
                                ),
-#                               muTauWWID = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("lWWId"),
-#                                   method     = cms.string('leg1.userInt("WWID2011")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
                               muTauPFID = cms.PSet(
                                   pluginType = cms.string("PATMuTauPairFiller"),
                                   src        = cms.InputTag(src),
@@ -623,34 +505,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                   method     = cms.string('leg1.pfCandidateRef().isNonnull()'),
                                   leadingOnly=cms.untracked.bool(True)
                               ),                              
-#                               muTauMVAID = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("lMVAId"),
-#                                   method     = cms.string('leg1.userFloat("idmva")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),   
-#                               muTauMVAIso = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("lMVAIso"),
-#                                   method     = cms.string('leg1.userFloat("isomva")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),   
-#                               muTauRingMVAIso = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("lRingMVAIso"),
-#                                   method     = cms.string('leg1.userFloat("isoringsradmva")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),                                                                                        
-#                               muTauRelStdIso03 = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("lStdRelIso"),
-#                                   method     = cms.string('(leg1.isolationR03.sumPt+leg1.isolationR03.emEt+leg1.isolationR03.hadEt)/leg1.pt()'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),                              
                               muTauRelPFIsoDB = cms.PSet(
                                   pluginType = cms.string("PATMuTauPairFiller"),
                                   src        = cms.InputTag(src),
@@ -672,13 +526,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                   method     = cms.string('leg1.userFloat("hltOverlapFilterIsoMu18LooseIsoPFTau20")+leg1.userFloat("hltOverlapFilterIsoMu17LooseIsoPFTau20")'),
                                   leadingOnly=cms.untracked.bool(True)
                               ),
-#                               muTauMuTriggerMatch2 = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("muTrigger"),
-#                                   method     = cms.string('leg1.userFloat("hltL3crIsoL1sMu14erORMu16erL1f0L2f14QL3f17QL3crIsoRhoFiltered0p15")+leg1.userFloat("hltL3crIsoL1sMu16Eta2p1L1f0L2f16QL3f18QL3crIsoFiltered10")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),                              
                               muTauTauTriggerMatch = cms.PSet(
                                   pluginType = cms.string("PATMuTauPairFiller"),
                                   src        = cms.InputTag(src),
@@ -770,20 +617,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                   method     = cms.string('leg2.tauID("decayModeFinding")'),
                                   leadingOnly=cms.untracked.bool(True)
                               ),
-#                               muTauVLooseIso = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("tauVLooseIso"),
-#                                   method     = cms.string('leg2.tauID("byVLooseIsolation")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
-#                               muTauLooseIso = cms.PSet(
-#                                   pluginType = cms.string("PATMuTauPairFiller"),
-#                                   src        = cms.InputTag(src),
-#                                   tag        = cms.string("tauLooseIso"),
-#                                   method     = cms.string('leg2.tauID("byLooseIsolation")'),
-#                                   leadingOnly=cms.untracked.bool(True)
-#                               ),
                               muTauLooseIsoMVA = cms.PSet(
                                   pluginType = cms.string("PATMuTauPairFiller"),
                                   src        = cms.InputTag(src),
@@ -1202,36 +1035,6 @@ def addMuTauEventTree(process,name,src = 'diTausSorted', srcLL = 'diMuonsSorted'
                                     src        = cms.InputTag("generator","minVisPtFilter"),
                                     tag        = cms.string("EmbPtWeight"),
                               ),
-#                               muTauEmbedSpinWeight = cms.PSet(
-#                                     pluginType = cms.string("EventWeightFiller"),
-#                                     src        = cms.InputTag("TauSpinnerReco","TauSpinnerWT"),
-#                                     tag        = cms.string("EmbSpinWeight"),
-#                               ),
-#                               muTauEmbedZMMWeight = cms.PSet(
-#                                     pluginType = cms.string("EventWeightFiller"),
-#                                     src        = cms.InputTag("ZmumuEvtSelEffCorrWeightProducer","weight"),
-#                                     tag        = cms.string("EmbZMMWeight"),
-#                               ),
-#                               muTauEmbedRadWeight = cms.PSet(
-#                                     pluginType = cms.string("EventWeightFiller"),
-#                                     src        = cms.InputTag("muonRadiationCorrWeightProducer","weight"),
-#                                     tag        = cms.string("EmbRadWeight"),
-#                               ),
-#                               muTauEmbedKinePtWeight = cms.PSet(
-#                                     pluginType = cms.string("EventWeightFiller"),
-#                                     src        = cms.InputTag("embeddingKineReweightRECembedding","genTau2PtVsGenTau1Pt"),
-#                                     tag        = cms.string("EmbKinePtWeight"),
-#                               ),
-#                               muTauEmbedKineEtaWeight = cms.PSet(
-#                                     pluginType = cms.string("EventWeightFiller"),
-#                                     src        = cms.InputTag("embeddingKineReweightRECembedding","genTau2EtaVsGenTau1Eta"),
-#                                     tag        = cms.string("EmbKineEtaWeight"),
-#                               ),
-#                               muTauEmbedKineMassWeight = cms.PSet(
-#                                     pluginType = cms.string("EventWeightFiller"),
-#                                     src        = cms.InputTag("embeddingKineReweightRECembedding","genDiTauMassVsGenDiTauPt"),
-#                                     tag        = cms.string("EmbKineMassWeight"),
-#                               ),                                                                                                                                                                                    
                               muTauEmbedPt = cms.PSet(
                                     pluginType = cms.string("PATGenParticleFiller"),
                                     src        = cms.InputTag("genDaughters"),
